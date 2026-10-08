@@ -1,0 +1,478 @@
+{
+  "retrieved_at": "2026-10-06T12:27:27.172817+00:00",
+  "documents": [
+    {
+      "file": "filings_2016_2020.html",
+      "url": "https://dart.fss.or.kr/dsab001/searchCorp.ax?currentPage=1&maxResults=100&maxLinks=10&sort=date&series=asc&textCrpCik=00126380&textCrpNm=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90&pageGubun=corp&startDate=20160101&endDate=20201231&publicType=A001",
+      "sha256": "3ef812c52df475d2f7043d842cdda4bc8a27b920be466b6bf863e20f120f34af",
+      "retrieved_at": "2026-10-06T12:26:36.263031+00:00"
+    },
+    {
+      "file": "filings_2021_2025.html",
+      "url": "https://dart.fss.or.kr/dsab001/searchCorp.ax?currentPage=1&maxResults=100&maxLinks=10&sort=date&series=asc&textCrpCik=00126380&textCrpNm=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90&pageGubun=corp&startDate=20210101&endDate=20251231&publicType=A001",
+      "sha256": "fadd53e9d0bf65bfe6b1b3f92833e3529a4ad6f8fc14af54d889693fc9996e18",
+      "retrieved_at": "2026-10-06T12:26:36.610575+00:00"
+    },
+    {
+      "file": "filings_2026_2026.html",
+      "url": "https://dart.fss.or.kr/dsab001/searchCorp.ax?currentPage=1&maxResults=100&maxLinks=10&sort=date&series=asc&textCrpCik=00126380&textCrpNm=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90&pageGubun=corp&startDate=20260101&endDate=20261231&publicType=A001",
+      "sha256": "6aaa21756daee5abd53ae68876b9f7e94de366ad26c1ae94fd1bf6bd1072f640",
+      "retrieved_at": "2026-10-06T12:26:36.831667+00:00"
+    },
+    {
+      "file": "2015_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2015_con_quarter04_all.pdf",
+      "sha256": "4d93d7bb9a143dc6184e557ab841f6dfcf7fe5aeb24bd68ce943619abd4a6517",
+      "retrieved_at": "2026-10-06T12:26:37.075805+00:00"
+    },
+    {
+      "file": "20160330003536_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20160330003536",
+      "sha256": "3e302709a65474d5adb428afa8c02b7fae775153e0c0a63a01837c0f6eb0b5f4",
+      "retrieved_at": "2026-10-06T12:26:37.723449+00:00"
+    },
+    {
+      "file": "20160330003536_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20160330003536&dcmNo=5026126&eleId=13&offset=484673&length=108645&dtd=dart3.xsd",
+      "sha256": "e2e873a8d7b7e458b19ea3e195c6756352d78c7c36e6ee74f115861bf333b869",
+      "retrieved_at": "2026-10-06T12:26:38.503209+00:00"
+    },
+    {
+      "file": "2016_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2016_con_quarter04_all.pdf",
+      "sha256": "5398d1b197eb0e9c48b6b973f739e37015b7474de7269af0022dba521f5dd53c",
+      "retrieved_at": "2026-10-06T12:26:39.445344+00:00"
+    },
+    {
+      "file": "20170331004518_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20170331004518",
+      "sha256": "0e1d619834eaec3e3c1ac28b7c6556481d33b3ddd6241fa5a8b8b29a83c672d8",
+      "retrieved_at": "2026-10-06T12:26:40.127833+00:00"
+    },
+    {
+      "file": "20170331004518_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20170331004518&dcmNo=5540271&eleId=13&offset=502744&length=111903&dtd=dart3.xsd",
+      "sha256": "12cb649b0436a1cd16df8bfffae77d47abcf1900fc787e4750d9a57d3406d313",
+      "retrieved_at": "2026-10-06T12:26:40.583348+00:00"
+    },
+    {
+      "file": "2017_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2017_con_quarter04_all.pdf",
+      "sha256": "0ec7cfa27109598b51993aff70cdd8d56df0d0c7136b49af7642b456d8987150",
+      "retrieved_at": "2026-10-06T12:26:40.744928+00:00"
+    },
+    {
+      "file": "20180402005019_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20180402005019",
+      "sha256": "29789b25c0c7919ddfbddaba62f3529a7a5042e433977aaa8fae5cfefd060236",
+      "retrieved_at": "2026-10-06T12:26:41.226842+00:00"
+    },
+    {
+      "file": "20180402005019_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20180402005019&dcmNo=6060273&eleId=13&offset=642452&length=115790&dtd=dart3.xsd",
+      "sha256": "4997e941c8a452d744b54529a52e0fe6454e683f38c8c780c4ab956764e00929",
+      "retrieved_at": "2026-10-06T12:26:41.527198+00:00"
+    },
+    {
+      "file": "2018_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2018_con_quarter04_all.pdf",
+      "sha256": "42116442de41ea5ee0055db8052080a949400189c5ec17ddec7027a66a0937ae",
+      "retrieved_at": "2026-10-06T12:26:41.618932+00:00"
+    },
+    {
+      "file": "20190401004781_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20190401004781",
+      "sha256": "c8aec253dc65f14a997706b10f391d3fb44b546e7b126732b9d0cfe43b90e53b",
+      "retrieved_at": "2026-10-06T12:26:42.399060+00:00"
+    },
+    {
+      "file": "20190401004781_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20190401004781&dcmNo=6616741&eleId=13&offset=625579&length=120141&dtd=dart3.xsd",
+      "sha256": "d1ee5871e39640d892c081d9ed24da445787e46577054db74a8e3e6d37d02667",
+      "retrieved_at": "2026-10-06T12:26:42.702705+00:00"
+    },
+    {
+      "file": "2019_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2019_con_quarter04_all.pdf",
+      "sha256": "ae97c022775f209f007ebab94e3dfc76b16ddc7cae7624b72d2ddf96581d2826",
+      "retrieved_at": "2026-10-06T12:26:42.796494+00:00"
+    },
+    {
+      "file": "20200330003851_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20200330003851",
+      "sha256": "6e96815d2365de80853ece8da8094e8144384f644308e01e1814bb9bdfd8f58f",
+      "retrieved_at": "2026-10-06T12:26:43.462804+00:00"
+    },
+    {
+      "file": "20200330003851_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20200330003851&dcmNo=7202455&eleId=13&offset=629645&length=115706&dtd=dart3.xsd",
+      "sha256": "669977e1d15cfa40093bcdc643cf0b6be95e55a3061cef79c153315656d1b8e9",
+      "retrieved_at": "2026-10-06T12:26:43.758778+00:00"
+    },
+    {
+      "file": "2020_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2020_con_quarter04_all.pdf",
+      "sha256": "8cc1c6bbe7b4ae7b5c1c1e42dd24e640a0e77fc4db3172c5a445b8a871db1901",
+      "retrieved_at": "2026-10-06T12:26:44.032174+00:00"
+    },
+    {
+      "file": "20210309000744_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20210309000744",
+      "sha256": "65b6077fac955e6bab4109f98b4161737d03d2d1422f607b82def0013f9676c7",
+      "retrieved_at": "2026-10-06T12:26:44.834308+00:00"
+    },
+    {
+      "file": "20210309000744_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20210309000744&dcmNo=7861003&eleId=14&offset=687340&length=115750&dtd=dart3.xsd",
+      "sha256": "5cd69ed224c9f4615d44f62fee38f1916971ad7f8d5a1a7f705822aec10d27ce",
+      "retrieved_at": "2026-10-06T12:26:45.154477+00:00"
+    },
+    {
+      "file": "2021_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_con_quarter04_all.pdf",
+      "sha256": "793ab1738fbd1d456e3ebf3a8dab6bc46987cbaaeb86665f8e5f387fa873639c",
+      "retrieved_at": "2026-10-06T12:26:45.420374+00:00"
+    },
+    {
+      "file": "20220308000798_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20220308000798",
+      "sha256": "cd1dd21053d9cf3979a8a1886543f35fe239a67d34764b6185c50c88444d24b3",
+      "retrieved_at": "2026-10-06T12:26:46.103846+00:00"
+    },
+    {
+      "file": "20220308000798_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20220308000798&dcmNo=8446647&eleId=19&offset=425363&length=101414&dtd=dart3.xsd",
+      "sha256": "3105a4a135c236be5f436ff4813f519407d610bc2e5504fd0aef9aff3ae21b0c",
+      "retrieved_at": "2026-10-06T12:26:46.403003+00:00"
+    },
+    {
+      "file": "2022_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2022_con_quarter04_all.pdf",
+      "sha256": "43d7f896abb11bf50068ee326f75704f83e39c36e3f87d02531d86030f0ba9c3",
+      "retrieved_at": "2026-10-06T12:26:47.231135+00:00"
+    },
+    {
+      "file": "20230307000542_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542",
+      "sha256": "f10d078f724fc607ae160943b95440ce46e34b3eaff623d1502a1c837205ef1f",
+      "retrieved_at": "2026-10-06T12:26:48.119249+00:00"
+    },
+    {
+      "file": "20230307000542_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230307000542&dcmNo=9040011&eleId=19&offset=305544&length=101364&dtd=dart3.xsd",
+      "sha256": "4e36cff9c17272220021018291fbbfb1f0461a7eb94058345c9f9caba3afa173",
+      "retrieved_at": "2026-10-06T12:26:48.415370+00:00"
+    },
+    {
+      "file": "2023_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2023_con_quarter04_all.pdf",
+      "sha256": "48fe59da384b1449113745892fa28067190c647786caa53bcd8663e0aa2e7c30",
+      "retrieved_at": "2026-10-06T12:26:48.769921+00:00"
+    },
+    {
+      "file": "20240312000736_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240312000736",
+      "sha256": "22e3d106c83f27f92d8226a0aca49695bbc8a50528d1b3cd9b8a7c2e62bd1185",
+      "retrieved_at": "2026-10-06T12:26:49.445525+00:00"
+    },
+    {
+      "file": "20240312000736_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240312000736&dcmNo=9702846&eleId=21&offset=347459&length=11956&dtd=dart4.xsd",
+      "sha256": "ac08fd471212a40955ff136a9575152bad4c1c74ff091baead8ede56e07ebe0b",
+      "retrieved_at": "2026-10-06T12:26:49.766768+00:00"
+    },
+    {
+      "file": "2024_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_con_quarter04_all.pdf",
+      "sha256": "7c0b31d9926fc3ce6a932abd2e52bf804406c38858b16e50526d799e354b24a4",
+      "retrieved_at": "2026-10-06T12:27:30.502985+00:00"
+    },
+    {
+      "file": "20250311001085_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250311001085",
+      "sha256": "6fa1f5225f8410756d36e1ec7de1f510d038536089139064a5bc3a930eaa36fb",
+      "retrieved_at": "2026-10-06T12:27:32.235708+00:00"
+    },
+    {
+      "file": "20250311001085_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250311001085&dcmNo=10392692&eleId=21&offset=374789&length=20043&dtd=dart4.xsd",
+      "sha256": "cd3f66835109da01b777f48d77f50823e4a846d5d7a8b0ed751c7bdbaa616e1e",
+      "retrieved_at": "2026-10-06T12:27:32.723472+00:00"
+    },
+    {
+      "file": "2025_official.pdf",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_con_quarter04_all.pdf",
+      "sha256": "533412fef907b699c3ce52e060a5717c25acbbc598de5a001b3a0dc9577a3574",
+      "retrieved_at": "2026-10-06T12:27:33.097161+00:00"
+    },
+    {
+      "file": "20260310002820_main.html",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820",
+      "sha256": "72cc0474dc0ab62c854e41b6b2d00c2aafbd7afa9f6dc68c1a0587f2633174d8",
+      "retrieved_at": "2026-10-06T12:27:33.952959+00:00"
+    },
+    {
+      "file": "20260310002820_statement.html",
+      "url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002820&dcmNo=11104488&eleId=21&offset=432032&length=19681&dtd=dart4.xsd",
+      "sha256": "5233bcc8247f92dda6e3856ac726094743be953e61787a3636f2bb187fd963dc",
+      "retrieved_at": "2026-10-06T12:27:34.283200+00:00"
+    }
+  ],
+  "checks": [
+    {
+      "report_year": 2015,
+      "receipt_no": "20160330003536",
+      "publication_date": "2016-03-30",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20160330003536&dcmNo=5026126&eleId=13&offset=484673&length=108645&dtd=dart3.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2015_con_quarter04_all.pdf",
+      "pdf_page": 7,
+      "pdf_revenue_line": "Revenue 200,653,482 206,205,987 177,365,404 182,273,479",
+      "dart_excerpt": "연결 손익계산서 제 47 기 2015.01.01 부터 2015.12.31 까지 제 46 기 2014.01.01 부터 2014.12.31 까지 제 45 기 2013.01.01 부터 2013.12.31 까지 (단위 : 백만원) 제 47 기 제 46 기 제 45 기 수익(매출액) 200,653,482 206,205,987 228,692,667 ",
+      "revenue_million_krw": {
+        "2015": 200653482,
+        "2014": 206205987,
+        "2013": 228692667
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    },
+    {
+      "report_year": 2016,
+      "receipt_no": "20170331004518",
+      "publication_date": "2017-03-31",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20170331004518&dcmNo=5540271&eleId=13&offset=502744&length=111903&dtd=dart3.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2016_con_quarter04_all.pdf",
+      "pdf_page": 7,
+      "pdf_revenue_line": "Revenue 32 201,866,745 200,653,482 174,047,940 173,001,874",
+      "dart_excerpt": "연결 손익계산서 제 48 기 2016.01.01 부터 2016.12.31 까지 제 47 기 2015.01.01 부터 2015.12.31 까지 제 46 기 2014.01.01 부터 2014.12.31 까지 (단위 : 백만원) 제 48 기 제 47 기 제 46 기 수익(매출액) 201,866,745 200,653,482 206,205,987 ",
+      "revenue_million_krw": {
+        "2016": 201866745,
+        "2015": 200653482,
+        "2014": 206205987
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    },
+    {
+      "report_year": 2017,
+      "receipt_no": "20180402005019",
+      "publication_date": "2018-04-02",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20180402005019&dcmNo=6060273&eleId=13&offset=642452&length=115790&dtd=dart3.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2017_con_quarter04_all.pdf",
+      "pdf_page": 7,
+      "pdf_revenue_line": "Revenue 32 239,575,376 201,866,745 211,811,887 178,473,168",
+      "dart_excerpt": "연결 손익계산서 제 49 기 2017.01.01 부터 2017.12.31 까지 제 48 기 2016.01.01 부터 2016.12.31 까지 제 47 기 2015.01.01 부터 2015.12.31 까지 (단위 : 백만원) 제 49 기 제 48 기 제 47 기 수익(매출액) 239,575,376 201,866,745 200,653,482 ",
+      "revenue_million_krw": {
+        "2017": 239575376,
+        "2016": 201866745,
+        "2015": 200653482
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    },
+    {
+      "report_year": 2018,
+      "receipt_no": "20190401004781",
+      "publication_date": "2019-04-01",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20190401004781&dcmNo=6616741&eleId=13&offset=625579&length=120141&dtd=dart3.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2018_con_quarter04_all.pdf",
+      "pdf_page": 11,
+      "pdf_revenue_line": "Revenue 32 243,771,415  239,575,376 221,568,382 217,754,524",
+      "dart_excerpt": "연결 손익계산서 제 50 기 2018.01.01 부터 2018.12.31 까지 제 49 기 2017.01.01 부터 2017.12.31 까지 제 48 기 2016.01.01 부터 2016.12.31 까지 (단위 : 백만원) 제 50 기 제 49 기 제 48 기 수익(매출액) 243,771,415 239,575,376 201,866,745 ",
+      "revenue_million_krw": {
+        "2018": 243771415,
+        "2017": 239575376,
+        "2016": 201866745
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    },
+    {
+      "report_year": 2019,
+      "receipt_no": "20200330003851",
+      "publication_date": "2020-03-30",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20200330003851&dcmNo=7202455&eleId=13&offset=629645&length=115706&dtd=dart3.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2019_con_quarter04_all.pdf",
+      "pdf_page": 10,
+      "pdf_revenue_line": "Revenue 31 230,400,881 243,771,415 197,690,938  209,163,262",
+      "dart_excerpt": "연결 손익계산서 제 51 기 2019.01.01 부터 2019.12.31 까지 제 50 기 2018.01.01 부터 2018.12.31 까지 제 49 기 2017.01.01 부터 2017.12.31 까지 (단위 : 백만원) 제 51 기 제 50 기 제 49 기 수익(매출액) 230,400,881 243,771,415 239,575,376 ",
+      "revenue_million_krw": {
+        "2019": 230400881,
+        "2018": 243771415,
+        "2017": 239575376
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    },
+    {
+      "report_year": 2020,
+      "receipt_no": "20210309000744",
+      "publication_date": "2021-03-09",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20210309000744&dcmNo=7861003&eleId=14&offset=687340&length=115750&dtd=dart3.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2020_con_quarter04_all.pdf",
+      "pdf_page": 10,
+      "pdf_revenue_line": "Revenue 29 236,806,988 230,400,881 200,606,179 195,179,376",
+      "dart_excerpt": "연결 손익계산서 제 52 기 2020.01.01 부터 2020.12.31 까지 제 51 기 2019.01.01 부터 2019.12.31 까지 제 50 기 2018.01.01 부터 2018.12.31 까지 (단위 : 백만원) 제 52 기 제 51 기 제 50 기 수익(매출액) 236,806,988 230,400,881 243,771,415 ",
+      "revenue_million_krw": {
+        "2020": 236806988,
+        "2019": 230400881,
+        "2018": 243771415
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    },
+    {
+      "report_year": 2021,
+      "receipt_no": "20220308000798",
+      "publication_date": "2022-03-08",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20220308000798&dcmNo=8446647&eleId=19&offset=425363&length=101414&dtd=dart3.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_con_quarter04_all.pdf",
+      "pdf_page": 9,
+      "pdf_revenue_line": "Revenue 29 279,604,799 236,806,988 244,388,604 206,981,172",
+      "dart_excerpt": "연결 손익계산서 제 53 기 2021.01.01 부터 2021.12.31 까지 제 52 기 2020.01.01 부터 2020.12.31 까지 제 51 기 2019.01.01 부터 2019.12.31 까지 (단위 : 백만원) 제 53 기 제 52 기 제 51 기 수익(매출액) 279,604,799 236,806,988 230,400,881 ",
+      "revenue_million_krw": {
+        "2021": 279604799,
+        "2020": 236806988,
+        "2019": 230400881
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    },
+    {
+      "report_year": 2022,
+      "receipt_no": "20230307000542",
+      "publication_date": "2023-03-07",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20230307000542&dcmNo=9040011&eleId=19&offset=305544&length=101364&dtd=dart3.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2022_con_quarter04_all.pdf",
+      "pdf_page": 9,
+      "pdf_revenue_line": "Revenue 29 302,231,360 279,604,799 234,079,475 216,555,107",
+      "dart_excerpt": "연결 손익계산서 제 54 기 2022.01.01 부터 2022.12.31 까지 제 53 기 2021.01.01 부터 2021.12.31 까지 제 52 기 2020.01.01 부터 2020.12.31 까지 (단위 : 백만원) 제 54 기 제 53 기 제 52 기 수익(매출액) 302,231,360 279,604,799 236,806,988 ",
+      "revenue_million_krw": {
+        "2022": 302231360,
+        "2021": 279604799,
+        "2020": 236806988
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    },
+    {
+      "report_year": 2023,
+      "receipt_no": "20240312000736",
+      "publication_date": "2024-03-12",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20240312000736&dcmNo=9702846&eleId=21&offset=347459&length=11956&dtd=dart4.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2023_con_quarter04_all.pdf",
+      "pdf_page": 9,
+      "pdf_revenue_line": "Revenue 29 258,935,494 302,231,360 198,247,859 231,396,319",
+      "dart_excerpt": "연결 손익계산서 연결 손익계산서 제 55 기 2023.01.01 부터 2023.12.31 까지 제 54 기 2022.01.01 부터 2022.12.31 까지 제 53 기 2021.01.01 부터 2021.12.31 까지 (단위 : 백만원) 제 55 기 제 54 기 제 53 기 영업수익 (주29) 258,935,494 302,231,360 279,604,799 ",
+      "revenue_million_krw": {
+        "2023": 258935494,
+        "2022": 302231360,
+        "2021": 279604799
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    },
+    {
+      "report_year": 2024,
+      "receipt_no": "20250311001085",
+      "publication_date": "2025-03-11",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20250311001085&dcmNo=10392692&eleId=21&offset=374789&length=20043&dtd=dart4.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_con_quarter04_all.pdf",
+      "pdf_page": 9,
+      "pdf_revenue_line": "Revenue 29 300,870,903 258,935,494 220,726,499 189,961,623",
+      "dart_excerpt": "연결 손익계산서 연결 손익계산서 제 56 기 2024.01.01 부터 2024.12.31 까지 제 55 기 2023.01.01 부터 2023.12.31 까지 제 54 기 2022.01.01 부터 2022.12.31 까지 (단위 : 백만원) 제 56 기 제 55 기 제 54 기 매출액 (주29) 300,870,903 258,935,494 302,231,360 ",
+      "revenue_million_krw": {
+        "2024": 300870903,
+        "2023": 258935494,
+        "2022": 302231360
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    },
+    {
+      "report_year": 2025,
+      "receipt_no": "20260310002820",
+      "publication_date": "2026-03-10",
+      "dart_source_url": "https://dart.fss.or.kr/report/viewer.do?rcpNo=20260310002820&dcmNo=11104488&eleId=21&offset=432032&length=19681&dtd=dart4.xsd",
+      "pdf_source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_con_quarter04_all.pdf",
+      "pdf_page": 9,
+      "pdf_revenue_line": "Revenue 30 333,605,938 300,870,903 234,622,273 211,599,996",
+      "dart_excerpt": "연결 손익계산서 연결 손익계산서 제 57 기 2025.01.01 부터 2025.12.31 까지 제 56 기 2024.01.01 부터 2024.12.31 까지 제 55 기 2023.01.01 부터 2023.12.31 까지 (단위 : 백만원) 제 57 기 제 56 기 제 55 기 매출액 (주30) 333,605,938 300,870,903 258,935,494 ",
+      "revenue_million_krw": {
+        "2025": 333605938,
+        "2024": 300870903,
+        "2023": 258935494
+      },
+      "crosscheck": "당기와 비교 전기 KRW 매출 모두 일치"
+    }
+  ],
+  "filings": [
+    {
+      "fiscal_year": 2015,
+      "receipt_no": "20160330003536",
+      "publication_date": "2016-03-30",
+      "is_correction": false,
+      "filing_list_text": "1 유 삼성전자 사업보고서 (2015.12) 삼성전자 2016.03.30 연"
+    },
+    {
+      "fiscal_year": 2016,
+      "receipt_no": "20170331004518",
+      "publication_date": "2017-03-31",
+      "is_correction": false,
+      "filing_list_text": "2 유 삼성전자 사업보고서 (2016.12) 삼성전자 2017.03.31 연"
+    },
+    {
+      "fiscal_year": 2017,
+      "receipt_no": "20180402005019",
+      "publication_date": "2018-04-02",
+      "is_correction": false,
+      "filing_list_text": "3 유 삼성전자 사업보고서 (2017.12) 삼성전자 2018.04.02 연"
+    },
+    {
+      "fiscal_year": 2018,
+      "receipt_no": "20190401004781",
+      "publication_date": "2019-04-01",
+      "is_correction": false,
+      "filing_list_text": "4 유 삼성전자 사업보고서 (2018.12) 삼성전자 2019.04.01 연"
+    },
+    {
+      "fiscal_year": 2019,
+      "receipt_no": "20200330003851",
+      "publication_date": "2020-03-30",
+      "is_correction": false,
+      "filing_list_text": "5 유 삼성전자 사업보고서 (2019.12) 삼성전자 2020.03.30 연"
+    },
+    {
+      "fiscal_year": 2020,
+      "receipt_no": "20210309000744",
+      "publication_date": "2021-03-09",
+      "is_correction": false,
+      "filing_list_text": "1 유 삼성전자 사업보고서 (2020.12) 삼성전자 2021.03.09 연"
+    },
+    {
+      "fiscal_year": 2021,
+      "receipt_no": "20220308000798",
+      "publication_date": "2022-03-08",
+      "is_correction": false,
+      "filing_list_text": "2 유 삼성전자 사업보고서 (2021.12) 삼성전자 2022.03.08 연"
+    },
+    {
+      "fiscal_year": 2022,
+      "receipt_no": "20230307000542",
+      "publication_date": "2023-03-07",
+      "is_correction": false,
+      "filing_list_text": "3 유 삼성전자 사업보고서 (2022.12) 삼성전자 2023.03.07 연"
+    },
+    {
+      "fiscal_year": 2023,
+      "receipt_no": "20240312000736",
+      "publication_date": "2024-03-12",
+      "is_correction": false,
+      "filing_list_text": "4 유 삼성전자 사업보고서 (2023.12) 삼성전자 2024.03.12 연"
+    },
+    {
+      "fiscal_year": 2024,
+      "receipt_no": "20250311001085",
+      "publication_date": "2025-03-11",
+      "is_correction": false,
+      "filing_list_text": "5 유 삼성전자 사업보고서 (2024.12) 삼성전자 2025.03.11 연"
+    },
+    {
+      "fiscal_year": 2025,
+      "receipt_no": "20260310002820",
+      "publication_date": "2026-03-10",
+      "is_correction": false,
+      "filing_list_text": "1 유 삼성전자 사업보고서 (2025.12) 삼성전자 2026.03.10 연"
+    }
+  ]
+}
