@@ -1,0 +1,157 @@
+[
+  {
+    "file": "2015_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2015_con_quarter04_all.pdf",
+    "sha256": "4d93d7bb9a143dc6184e557ab841f6dfcf7fe5aeb24bd68ce943619abd4a6517",
+    "retrieved_at": "2026-10-06T12:26:37.075805+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      21,
+      22,
+      90,
+      91
+    ]
+  },
+  {
+    "file": "2016_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2016_con_quarter04_all.pdf",
+    "sha256": "5398d1b197eb0e9c48b6b973f739e37015b7474de7269af0022dba521f5dd53c",
+    "retrieved_at": "2026-10-06T12:26:39.445344+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      22,
+      23,
+      91,
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "file": "2017_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2017_con_quarter04_all.pdf",
+    "sha256": "0ec7cfa27109598b51993aff70cdd8d56df0d0c7136b49af7642b456d8987150",
+    "retrieved_at": "2026-10-06T12:26:40.744928+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      25,
+      28,
+      95,
+      101,
+      102
+    ]
+  },
+  {
+    "file": "2018_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2018_con_quarter04_all.pdf",
+    "sha256": "42116442de41ea5ee0055db8052080a949400189c5ec17ddec7027a66a0937ae",
+    "retrieved_at": "2026-10-06T12:26:41.618932+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      27,
+      28,
+      31,
+      32,
+      102
+    ]
+  },
+  {
+    "file": "2019_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2019_con_quarter04_all.pdf",
+    "sha256": "ae97c022775f209f007ebab94e3dfc76b16ddc7cae7624b72d2ddf96581d2826",
+    "retrieved_at": "2026-10-06T12:26:42.796494+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      28,
+      29,
+      30,
+      93,
+      94
+    ]
+  },
+  {
+    "file": "2020_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2020_con_quarter04_all.pdf",
+    "sha256": "8cc1c6bbe7b4ae7b5c1c1e42dd24e640a0e77fc4db3172c5a445b8a871db1901",
+    "retrieved_at": "2026-10-06T12:26:44.032174+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      27,
+      28,
+      93
+    ]
+  },
+  {
+    "file": "2021_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2021_con_quarter04_all.pdf",
+    "sha256": "793ab1738fbd1d456e3ebf3a8dab6bc46987cbaaeb86665f8e5f387fa873639c",
+    "retrieved_at": "2026-10-06T12:26:45.420374+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      26,
+      28,
+      94
+    ]
+  },
+  {
+    "file": "2022_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2022_con_quarter04_all.pdf",
+    "sha256": "43d7f896abb11bf50068ee326f75704f83e39c36e3f87d02531d86030f0ba9c3",
+    "retrieved_at": "2026-10-06T12:26:47.231135+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      26,
+      27,
+      54
+    ]
+  },
+  {
+    "file": "2023_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2023_con_quarter04_all.pdf",
+    "sha256": "48fe59da384b1449113745892fa28067190c647786caa53bcd8663e0aa2e7c30",
+    "retrieved_at": "2026-10-06T12:26:48.769921+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      26,
+      27,
+      47,
+      48,
+      86,
+      87
+    ]
+  },
+  {
+    "file": "2024_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2024_con_quarter04_all.pdf",
+    "sha256": "7c0b31d9926fc3ce6a932abd2e52bf804406c38858b16e50526d799e354b24a4",
+    "retrieved_at": "2026-10-06T12:27:30.502985+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      26,
+      27,
+      47,
+      48,
+      50,
+      87
+    ]
+  },
+  {
+    "file": "2025_official.pdf",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_con_quarter04_all.pdf",
+    "sha256": "533412fef907b699c3ce52e060a5717c25acbbc598de5a001b3a0dc9577a3574",
+    "retrieved_at": "2026-10-06T12:27:33.097161+00:00",
+    "reviewed_on": "2026-10-07",
+    "checked_pdf_pages": [
+      27,
+      28,
+      29,
+      30,
+      51,
+      54,
+      92,
+      93,
+      94,
+      95
+    ]
+  }
+]

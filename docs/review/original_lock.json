@@ -1,0 +1,37 @@
+{
+  "source_sha256": "3b6f19d7876c582f16feb974ea8e3898d2c4a5d67005220e71d095a86594d378",
+  "method_files_sha256": {
+    "revenue_agent/forecast.py": "0d73d2ad7c3891897cd25f8d9640fd3064cfc08ec7fbd5457458df3593112731",
+    "revenue_agent/backtest.py": "5c7e3d010d256b660bfec0bb63a52921100ae020fc606e7e5053c4ff99b9c7b1"
+  },
+  "common_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "selection": {
+    "available": true,
+    "selected_method": "최근 3년 CAGR 유지",
+    "selection_years": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "test_years": [
+      2023,
+      2024,
+      2025
+    ],
+    "selection_mape_pct": 8.341830133091682,
+    "test_mape_pct": 15.563197612406512,
+    "baseline_test_mape_pct": 13.490402736305626,
+    "improvement_pp": -2.072794876100886,
+    "beats_baseline": false,
+    "reason": "탐색적 선택 결과입니다. 작은 단일 기업 표본으로 통계적 신뢰나 산업 전체 우월성을 주장할 수 없습니다."
+  }
+}

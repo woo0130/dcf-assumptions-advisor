@@ -1,0 +1,5 @@
+﻿year,publication_date,revenue_krw,receipt_no,source_url,value_basis,point_in_time_verified,first_current_publication_date,revenue_trillion_krw
+2019,2022-03-08,230400881000000,20220308000798,https://dart.fss.or.kr/report/viewer.do?rcpNo=20220308000798&dcmNo=8446647&eleId=19&offset=425363&length=101414&dtd=dart3.xsd,comparative,True,2020-03-30,230.400881
+2020,2023-03-07,236806988000000,20230307000542,https://dart.fss.or.kr/report/viewer.do?rcpNo=20230307000542&dcmNo=9040011&eleId=19&offset=305544&length=101364&dtd=dart3.xsd,comparative,True,2021-03-09,236.806988
+2021,2023-03-07,279604799000000,20230307000542,https://dart.fss.or.kr/report/viewer.do?rcpNo=20230307000542&dcmNo=9040011&eleId=19&offset=305544&length=101364&dtd=dart3.xsd,comparative,True,2022-03-08,279.604799
+2022,2023-03-07,302231360000000,20230307000542,https://dart.fss.or.kr/report/viewer.do?rcpNo=20230307000542&dcmNo=9040011&eleId=19&offset=305544&length=101364&dtd=dart3.xsd,current,True,2023-03-07,302.23136
