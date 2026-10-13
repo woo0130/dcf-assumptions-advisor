@@ -11,6 +11,8 @@ import json
 import os
 import pandas as pd
 import streamlit as st
+from revenue_agent.workspace_theme import (apply_theme, render_sidebar, render_header,
+    context_strip, metric_card, render_navigation)
 
 try:
     from dotenv import load_dotenv
@@ -438,33 +440,71 @@ def render_revenue_content(context):
 
 
 def main():
-    st.set_page_config(page_title='DCF 가정 리뷰어', layout='wide')
-    st.title('내 DCF 가정, 데이터로 검토받으세요')
-    st.caption('과거 분포는 참고값입니다. 내부 처리·공시 근거 연결 상태를 확인하세요.')
-    context = None
+    st.set_page_config(page_title='KIC RESEARCH · DCF Workspace', layout='wide', initial_sidebar_state='expanded')
+    if 'workspace_requested_step' in st.session_state:
+        requested = st.session_state.pop('workspace_requested_step')
+        st.session_state['workspace_step'] = requested
+        st.session_state['workspace_nav'] = requested
+    apply_theme()
+    step = render_sidebar()
+    render_header(step)
+    context = st.session_state.get('workspace_context')
     if CORE_ERROR:
-        st.warning('프로젝트 핵심 모듈이 연결되지 않았습니다: ' + CORE_ERROR)
-    else:
-        context = load_data()
-    if UI_ERROR:
-        st.warning('기존 상세 분석 모듈 또는 의존 모듈이 없습니다: ' + UI_ERROR)
-    tabs = st.tabs([
-        '매출 성장률 (Revenue Growth)',
-        '영업이익률 (Operating Margin)',
-        'NWC / 매출 (Net Working Capital)',
-        'CapEx / 매출 (Capital Expenditure)',
-    ])
-    with tabs[0]:
-        if context is None:
-            st.info('매출 자료와 핵심 모듈을 연결하면 매출 가정 검토를 실행할 수 있습니다.')
+        st.warning('분석 모듈 연결이 필요합니다: ' + CORE_ERROR)
+    if step == 0:
+        if CORE_ERROR is None:
+            context = load_data()
+            if context is None:
+                st.session_state.pop('workspace_context', None)
+            else:
+                st.session_state['workspace_context'] = context
         else:
-            st.subheader('매출 성장률 (Revenue Growth)')
-            render_revenue_content(context)
-    for tab, kind, label in zip(tabs[1:], ['margin', 'nwc', 'capex'],
-                                ['영업이익률', 'NWC / 매출', 'CapEx / 매출']):
-        with tab:
-            st.subheader(label)
-            st.info('해당 모듈은 현재 준비 중이며, 향후 순차적으로 업데이트될 예정입니다.')
+            st.info('기존 revenue_agent 핵심 모듈과 data 폴더를 함께 배치하세요.')
+    elif context is None:
+        st.info('01 기업 선택에서 매출 자료를 먼저 선택하세요.')
+    else:
+        context_strip(context)
+        if step in (1, 4):
+            if step == 4:
+                st.info('현재는 공시 조사 기반 가설 생성이 아닌 과거 성장률 분포 기반 가정 검토를 제공합니다.')
+            tabs = st.tabs(['매출 성장률', '영업이익률', 'NWC / 매출', 'CapEx / 매출'])
+            with tabs[0]:
+                render_revenue_content(context)
+            for tab in tabs[1:]:
+                with tab:
+                    st.info('해당 모듈은 현재 준비 중이며, 향후 순차적으로 업데이트될 예정입니다.')
+        elif step == 2:
+            data = context['data']
+            current = data[data['value_basis'] == 'current'].sort_values(['fiscal_year', 'publication_date'])
+            latest = current.iloc[-1]
+            year = int(latest['fiscal_year'])
+            prior = current[current['fiscal_year'] == year - 1]
+            change = None if prior.empty else (float(latest['revenue_krw']) / float(prior.iloc[-1]['revenue_krw']) - 1) * 100
+            cols = st.columns(3)
+            with cols[0]:
+                metric_card(f'{year}년 연결 매출', f"{float(latest['revenue_krw']) / 1e8:,.0f} 억원", '당기 연간 매출 · 로드된 자료 기준')
+            with cols[1]:
+                metric_card('전년 대비 성장률', '자료 부족' if change is None else f'{change:+.1f}%', '연속 회계연도의 매출 비교')
+            with cols[2]:
+                metric_card('공통 평가 연도', f"{len(context['common'])}개", '네 예측 방식이 모두 평가 가능한 연도')
+            st.caption('상단 카드는 로드된 전체 기간의 마지막 당기 값입니다. 아래 백테스트는 각 예측 기준일을 적용합니다.')
+            tabs = st.tabs(['매출 추이·백테스트', '성능 비교', '분석 다운로드'])
+            with tabs[0]: render_backtest_tab(data, context['results'])
+            with tabs[1]: render_performance_tab(context['summary'], context['common'], context['split'], context['mock'])
+            with tabs[2]: render_downloads_tab(data, context['results'], context['summary'], context['split'])
+        elif step == 3:
+            st.info('현재는 공시 출처·비교 가능성 검토입니다. 뉴스 수집과 자동 이슈 생성은 아직 연결되지 않았습니다.')
+            render_evidence_tab(context['data'], context['results'], source=context['source'], csv_choice=context['csv_choice'], root=ROOT)
+        elif step == 5:
+            st.info('미래 가이던스 자동 생성은 준비 중입니다. 아래 항목은 다음 검토를 위한 확인 목록입니다.')
+            for question in ['새 연간 매출이 입력 가정과 얼마나 달랐는가?',
+                             '사업결합·매각 또는 회계정책 변경이 매출 비교에 영향을 주었는가?',
+                             '높은 성장률 가정을 뒷받침하는 공개 근거가 추가되었는가?']:
+                with st.container(border=True): st.write(question)
+            render_downloads_tab(context['data'], context['results'], context['summary'], context['split'])
+    if UI_ERROR:
+        st.caption('상세 공시 검토 모듈의 연결 상태를 확인하세요: ' + UI_ERROR)
+    render_navigation(step, context is not None)
 
 
 if __name__ == '__main__':
