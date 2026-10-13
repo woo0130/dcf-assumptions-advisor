@@ -70,3 +70,14 @@ def render_net_debt_information(company_name):
                 ('이자발생부채 합계', debt), ('현금및현금성자산', amounts[3]), (label, abs(net))]
         st.dataframe(pd.DataFrame(rows, columns=['항목', '금액 (억원)']), hide_index=True)
         st.caption(f'사용자 입력 자료 · 결산일 {period.isoformat()} · 출처: {source}')
+
+
+def render_revenue_section(renderer, context):
+    """Render the full revenue review supplied by app.py without affecting other tabs."""
+    st.subheader('매출 성장률 (Revenue Growth)')
+    return renderer(context)
+
+
+def render_net_debt_table(company_name):
+    """Stable public entry point for the net-debt information table."""
+    return render_net_debt_information(company_name)
