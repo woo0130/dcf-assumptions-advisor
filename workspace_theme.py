@@ -123,3 +123,8 @@ def render_navigation(step, ready):
         if st.button('다음 단계 →', type='primary', disabled=step == 5 or not ready, use_container_width=True, key='workspace_next'):
             st.session_state['workspace_requested_step'] = step + 1
             st.rerun()
+
+
+def render_context_strip(context):
+    """Public alias retained for Cloud deployments and earlier app versions."""
+    return context_strip(context)

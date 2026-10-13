@@ -2,8 +2,10 @@
 import sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
+AGENT_DIR = ROOT / 'revenue_agent'
+for module_dir in (AGENT_DIR, ROOT):
+    if str(module_dir) not in sys.path:
+        sys.path.insert(0, str(module_dir))
 
 from datetime import date
 import importlib
@@ -11,8 +13,45 @@ import json
 import os
 import pandas as pd
 import streamlit as st
-from revenue_agent.workspace_theme import (apply_theme, render_sidebar, render_header,
-    context_strip, metric_card, render_navigation)
+# Resolve the actual file location without masking missing dependencies inside it.
+import importlib.util
+
+def _load_workspace_theme():
+    candidates = [ROOT / 'workspace_theme.py', AGENT_DIR / 'workspace_theme.py']
+    for path in candidates:
+        if not path.is_file():
+            continue
+        spec = importlib.util.spec_from_file_location('_dcf_workspace_theme', path)
+        if spec is None or spec.loader is None:
+            continue
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        return module
+    raise ModuleNotFoundError('workspace_theme.py가 프로젝트 루트 또는 revenue_agent 폴더에 없습니다.')
+
+try:
+    _theme = _load_workspace_theme()
+except (ImportError, OSError) as exc:
+    st.error('디자인 모듈을 불러올 수 없습니다. workspace_theme.py의 업로드 위치와 의존성을 확인하세요.')
+    st.code(str(exc))
+    st.stop()
+
+_required_theme_names = ['apply_theme', 'render_sidebar', 'render_header', 'metric_card', 'render_navigation']
+_missing_theme_names = [name for name in _required_theme_names if not callable(getattr(_theme, name, None))]
+_context_renderer = getattr(_theme, 'render_context_strip', None)
+if not callable(_context_renderer):
+    _context_renderer = getattr(_theme, 'context_strip', None)
+if not callable(_context_renderer):
+    _missing_theme_names.append('render_context_strip / context_strip')
+if _missing_theme_names:
+    st.error('workspace_theme.py의 함수 버전이 일치하지 않습니다: ' + ', '.join(_missing_theme_names))
+    st.stop()
+apply_theme = _theme.apply_theme
+render_sidebar = _theme.render_sidebar
+render_header = _theme.render_header
+render_context_strip = _context_renderer
+metric_card = _theme.metric_card
+render_navigation = _theme.render_navigation
 
 try:
     from dotenv import load_dotenv
@@ -463,7 +502,7 @@ def main():
     elif context is None:
         st.info('01 기업 선택에서 매출 자료를 먼저 선택하세요.')
     else:
-        context_strip(context)
+        render_context_strip(context)
         if step in (1, 4):
             if step == 4:
                 st.info('현재는 공시 조사 기반 가설 생성이 아닌 과거 성장률 분포 기반 가정 검토를 제공합니다.')
