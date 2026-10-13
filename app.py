@@ -35,7 +35,7 @@ try:
     )
     from revenue_agent.schema import DataError, normalize, read_csv
     from revenue_agent.ui_review_updates import (
-        render_revenue_section, render_net_debt_table, render_peer_notice,
+        render_net_debt_information, render_peer_notice,
         render_uncertainty_notice, prepare_scenario_display,
     )
 except ModuleNotFoundError as exc:
@@ -208,7 +208,7 @@ def render_revenue_content(context):
     summary = context['summary']
     common = context['common']
     split = context['split']
-    render_net_debt_table(str(data.iloc[0]['company_name']))
+    render_net_debt_information(str(data.iloc[0]['company_name']))
     # 2단계: 질문형 가정 입력
     st.divider()
     st.header('2. 검토할 매출 성장률을 입력하세요')
@@ -458,7 +458,8 @@ def main():
         if context is None:
             st.info('매출 자료와 핵심 모듈을 연결하면 매출 가정 검토를 실행할 수 있습니다.')
         else:
-            render_revenue_section(render_revenue_content, context)
+            st.subheader('매출 성장률 (Revenue Growth)')
+            render_revenue_content(context)
     for tab, kind, label in zip(tabs[1:], ['margin', 'nwc', 'capex'],
                                 ['영업이익률', 'NWC / 매출', 'CapEx / 매출']):
         with tab:
